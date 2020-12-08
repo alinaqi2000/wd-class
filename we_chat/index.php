@@ -37,9 +37,9 @@
 
     <!--Main Navigation-->
     <main>
-        <div class="col-md-12">
+        <div class="col-lg-12">
             <div class="row">
-                <aside class="col-md-2">
+                <aside class="col-lg-3">
                     <div class="row">
                         <ul class="nav mt-3 nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item">
@@ -58,7 +58,7 @@
                                             <img src="https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg" alt="Ali Naqi">
                                             <span class="name"> Ali Naqi</span>
                                             <span class="recent">
-                                                recent message
+                                                recent message recent message ...
                                             </span>
                                         </a>
                                     </li>
@@ -101,16 +101,55 @@
                         </div>
                     </div>
                 </aside>
-                <div id="chat-box" class="col-md-10">
-                    <div class="container">
+                <div id="chat-box" class="col-lg-9">
+                    <div id="top-box">
+                        <div id="profile-box">
+                            <img src="https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg">
+                            <h4>Ali Naqi</h4>
+                        </div>
+                        <div id="chatting-box">
+                            <div class="chat-msg">
+                                <img src="https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg">
+                                <div class="msg-box">
+                                    <div class="msg">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    </div>
+                                    <div class="time">
+                                        12:12 PM 08 May, 2020
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chat-msg right">
+                                <img src="https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg">
+                                <div class="msg-box">
+                                    <div class="msg">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    </div>
+                                    <div class="time">
+                                        12:12 PM 08 May, 2020
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="type-box">
+                        <input type="text" autofocus placeholder="Type your message here" class="form-control">
+                        <!-- <button class="btn">
+                            <i class="fa fa-paperclip"></i>
+                        </button> -->
+                        <button class="btn">
+                            <i class="fa fa-paper-plane"></i>
+                        </button>
+                    </div>
+                    <!-- <div class="container">
                         <div class="row mt-5">
-                            <div class="col-md-4"></div>
-                            <div class="col-md-4">
+                            <div class="col-lg-4"></div>
+                            <div class="col-lg-4">
                                 <button class="btn btn-info mb-3" id="logout">Logout</button>
                                 <p class="alert alert-success w-100" id="main_alert"></p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
